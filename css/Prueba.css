@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	cursor: default;
+}
+#Contenedor {
+	background-image: url("../img/fondo-pantalla.jpg");
+	background-size: 100%;
+}
+/********************/
+/*******HEADER*******/
+/********************/
+#divcontcabe {
+	background: #E29F24;
+}
+#icon_menu {
+	display: none;
+}
+#IniRe {
+	text-align: right;
+}
+#IniRe a {
+	color: black;
+}
+#alogo, #h1title {
+	text-align: center;
+}
+#h1title {
+	margin-top: 5%;
+}
+
+/********************/
+/*********NAV********/
+/********************/
+#btn-inicio li a, #btn-Promociones li a, #btn-Nosotros li a {
+	color: #FFFFFF;
+}
+#btn-inicio, #btn-Promociones, #btn-Nosotros  {
+	margin-top: 0px;
+	border: inset;
+}
+
+/********************/
+/*******BANNER*******/
+/********************/
+.imgbaner {
+	height: 200px;
+}
+
+/********************/
+/*******IFRAME*******/
+/********************/
+#iframemapa {
+	padding: 5%;
+	background: rgba(157,153,153,0.77);
+	margin: 5%;
+	border-radius: 30px;
+	text-align: center;
+}
+#iframe {
+	margin: 2% auto;
+	border: 2px double #000000;
+	border-radius: 30px;
+	width: 700px;
+	height: 400px;
+}
+#btnmapa {
+	display: none;
+}
+
+/********************/
+/*******FOOTER*******/
+/********************/
+
+#divfooter {
+	background-color: #070707;
+	color: #FFFFFF;
+}
+footer h3 {
+	padding: 5px;
+	border-bottom: 1px solid gray;
+}
+.tex-footer a {
+	display: block;
+	color: #FFFFFF;
+}
+.icons {
+	font-size: 25pt;
+	text-align: center;
+}
+#fb:hover {
+	color: #2700FF;
+	cursor: pointer;
+}
+#ii:hover {
+	color: rgba(184,0,92,0.87);
+	cursor: pointer;
+}
+#gm:hover {
+	color: #FF0004;
+	cursor: pointer;
+}
+#derechos {
+	border-top: 1px solid gray;
+}
+#derechos p {
+	text-align: center;
+	padding: 5px;
+	color: slategray;
+}
+
+/*********************/
+/*******GALERIA*******/
+/*********************/
+.divcard {
+	border-radius: 30px;
+}
+.imgcard {
+	border-radius: 30px 30px 0 0;
+}
+.btnComp {
+	float: right;
+}
+
+/*****************************************/
+/*****FORMULARIO QUEJAS Y SUGERENCIAS*****/
+/*****************************************/
+.lblformQS {
+	color: #FFFFFF;
+}
+
+/********************************************/
+/*****************RESPONSIVE*****************/
+/********************************************/
+
+/*****************SMARTPHONE*****************/
+@media screen and (max-width:480px) {
+	#alogo img {
+		width: 170px;
+	}
+	#h1title {
+		margin-top: 0%;
+	}
+}
+
+@media screen and (max-width:580px) {
+	#h1title {
+		margin-top: -3%;
+	}
+	#iframemapa {
+		visibility: hidden;
+	}
+	#btnmapa {
+		display: block;
+		visibility: visible;
+		margin-top: -50%;
+	}
+	#iframe {
+		visibility: hidden;
+	}
+}
+@media screen and (min-width:580px) {
+	#sectionformI {
+		width: 50%;
+		margin: 0 auto;
+	}
+}
+
+/*******************TABLET*******************/
+
+@media screen and (max-width:1080px) {
+	#iframemapa {
+		padding: 1%;
+		margin: 2%;
+	}
+	#iframe {
+		margin: 1% auto;
+		width: 480px;
+		height: 250px;
+	}
+}
+
+/*****************ESCRITORIO*****************/
+@media screen and (min-width:1080px) {
+	#IniRe {
+		margin-top: 1%;
+	}
+}
+
